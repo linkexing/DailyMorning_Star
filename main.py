@@ -222,12 +222,12 @@ if __name__ == "__main__":
     note_ch, note_en = get_ciba()
     # 公众号推送消息
     for user in users:
-        if user == "oXtc26eGl1aPNsVuCbWIiycGVNAs":
+        if user=="oXtc26eGl1aPNsVuCbWIiycGVNAs":
             weather, max_temperature, min_temperature = get_weather(province, city)
             send_message(user, accessToken, city, weather, max_temperature, min_temperature, note_ch, note_en)
-        os.system("pause")
+            os.system("pause")
         else:
             weather, max_temperature, min_temperature = get_weather(province2, city2)
             send_message(user, accessToken, city2, weather, max_temperature, min_temperature, note_ch, note_en)
-        os.system("pause")
+            os.system("pause")
         
