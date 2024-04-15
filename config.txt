@@ -19,7 +19,7 @@
 "city2": "上海",
 # 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
 "birthday1": {"name": "小公主", "birthday": "r1999-9-7"},
-"birthday2": {"name": "嘻嘻", "birthday": "r2000-3-8"},
+"birthday2": {"name": "禚召余媳妇", "birthday": "r2000-3-8"},
 
 # 在一起的日子，格式同上
 "love_date": "2021-4-20"
