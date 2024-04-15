@@ -224,7 +224,7 @@ if __name__ == "__main__":
     for user in users:
          if users[0]=="oXtc26eGl1aPNsVuCbWIiycGVNAs":
             weather, max_temperature, min_temperature = get_weather(province, city)
-        else:
+         else:
             weather, max_temperature, min_temperature = get_weather(province2, city2)
-        send_message(user, accessToken, city, weather, max_temperature, min_temperature, note_ch, note_en)
+     send_message(user, accessToken, city, weather, max_temperature, min_temperature, note_ch, note_en)
     os.system("pause")
